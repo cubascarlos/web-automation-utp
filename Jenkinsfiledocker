@@ -1,0 +1,33 @@
+pipeline {
+    agent{
+        docker{
+            image 'markhobson/maven-chrome'
+            /*Configuración: Root para permisos, volumen para caché y ruta de repo local donde se guarda la caché*/
+            args '''
+                -u root
+                -v maven-cache:/var/maven/.m2
+                -e MAVEN_OPTS="-Dmaven.repo.local=/var/maven/.m2/repository"
+            '''
+        }
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/cubascarlos/web-automation-ct.git'
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                sh 'mvn clean verify -Dcucumber.filter.tags="@NTLC-1" -Dheadless=true'
+            }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: 'target/**/*', allowEmptyArchive: true
+            cucumber buildStatus: 'UNSTABLE',
+                     fileIncludePattern: 'cucumber.json',
+                     jsonReportDirectory: 'target/build'
+        }
+    }
+}

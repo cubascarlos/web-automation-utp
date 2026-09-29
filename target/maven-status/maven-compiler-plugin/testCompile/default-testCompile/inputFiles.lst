@@ -1,0 +1,10 @@
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/hooks/BaseWeb.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/hooks/Hooks.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/hooks/WebDriverManager.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/runner/RunnerTest.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/web/page/google/GooglePage.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/web/page/theInternet/TheInternetPage.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/web/step/google/GoogleStep.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/web/step/theInternet/TheInternetStep.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/web/stepdefinition/google/GoogleStepDefinition.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-ct/src/test/java/com/bdd/web/stepdefinition/theInternet/TheInternetStepDefinition.java
