@@ -1,6 +1,6 @@
 package com.bdd.web.step.google;
 
-import com.bdd.web.page.google.GooglePage;
+import com.bdd.web.page.saucedemo.GooglePage;
 
 public class GoogleStep {
     GooglePage googlePage = new GooglePage();

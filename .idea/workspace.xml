@@ -8,7 +8,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0717b5aa-9696-4241-98bc-704670266521" name="Changes" comment="add tag smoke">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jira/IntegrationJira.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/theInternet/TheInternetPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/theInternet/TheInternetStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/stepdefinition/theInternet/TheInternetStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/web/google.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/web/suce-demo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/automation-web-ct-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/automation-web-ct-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/build/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/build/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/embeddings/embedding_-949186753.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-feature_3985399183.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-feature_3985399183.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156576.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156576.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156577.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156577.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bdd.runner.RunnerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bdd.runner.RunnerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.bdd.runner.RunnerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.bdd.runner.RunnerTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +80,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.Runner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

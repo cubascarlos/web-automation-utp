@@ -1,4 +1,4 @@
-package com.bdd.web.page.google;
+package com.bdd.web.page.saucedemo;
 
 import com.bdd.hooks.BaseWeb;
 import org.openqa.selenium.Keys;
