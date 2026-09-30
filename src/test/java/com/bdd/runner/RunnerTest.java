@@ -14,10 +14,8 @@ import java.util.logging.Logger;
         stepNotifications = true,
         features = "src/test/resources/features",
         glue = {"com.bdd.web.stepdefinition", "com.bdd.hooks"},
-        plugin = {"pretty", "html:target/cucumber.html",
-                "json:target/build/cucumber.json",
-                "rerun:target/failed_scenarios.txt"},
-        tags = "@NTLC-1"
+        plugin = {"pretty","html:target/cucumber.html", "json:target/build/cucumber.json"},
+        tags = "@loginFail"
 )
 public class RunnerTest {
 

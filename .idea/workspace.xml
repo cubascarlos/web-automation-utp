@@ -10,30 +10,24 @@
     <list default="true" id="0717b5aa-9696-4241-98bc-704670266521" name="Changes" comment="add tag smoke">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jira/IntegrationJira.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/theInternet/TheInternetPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/theInternet/TheInternetStep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/stepdefinition/theInternet/TheInternetStepDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/web/google.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/web/suce-demo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/automation-web-ct-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/automation-web-ct-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/build/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/build/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/BaseWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/BaseWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/runner/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/GooglePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/google/GoogleStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/stepdefinition/google/GoogleStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/web/suce-demo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/automation-web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/automation-web-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Parameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/embeddings/embedding_-949186753.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-feature_3985399183.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-feature_3985399183.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156576.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156576.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156577.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_1131156577.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bdd.runner.RunnerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bdd.runner.RunnerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.bdd.runner.RunnerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.bdd.runner.RunnerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/runner/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/runner/RunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/google/GooglePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/google/GoogleStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/stepdefinition/google/GoogleStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/web/suce-demo.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +56,18 @@
 }</component>
   <component name="ProjectId" id="3D3YTUugveXWrCycSJMZC1LBROU" />
   <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="InlineAgent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
     <option name="panelTemplate">
       <template>
         <option name="modeId" value="Agent" />
@@ -104,7 +110,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="JUnit" factoryName="JUnit">
-      <module name="automation-web-ct" />
+      <module name="automation-web" />
       <option name="PACKAGE_NAME" value="com.bdd.runner" />
       <option name="MAIN_CLASS_NAME" value="com.bdd.runner.RunnerTest" />
       <option name="METHOD_NAME" value="" />

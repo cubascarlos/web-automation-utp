@@ -1,7 +1,8 @@
-com/bdd/web/stepdefinition/google/GoogleStepDefinition.class
+com/bdd/web/step/saucedemo/LoginStep.class
+com/bdd/web/stepdefinition/LoginStepDefinition.class
 com/bdd/runner/RunnerTest.class
 com/bdd/hooks/WebDriverManager.class
-com/bdd/web/step/google/GoogleStep.class
+com/bdd/web/page/saucedemo/InventoryPage.class
 com/bdd/hooks/BaseWeb.class
 com/bdd/hooks/Hooks.class
-com/bdd/web/page/google/GooglePage.class
+com/bdd/web/page/saucedemo/LoginPage.class
