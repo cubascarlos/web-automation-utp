@@ -29,6 +29,7 @@ public class WebDriverManager {
                     chromeOptions.addArguments("--no-sandbox");
                     chromeOptions.addArguments("--disable-dev-shm-usage");
                 }
+                chromeOptions.addArguments("--incognito");
                 chromeOptions.addArguments("--remote-allow-origins=*");
                 //System.setProperty("webdriver.chrome.driver", "drivers/win/chromedriver.exe");
                 //driver = new ChromeDriver(chromeOptions);

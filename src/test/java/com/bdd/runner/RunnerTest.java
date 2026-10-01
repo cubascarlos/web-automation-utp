@@ -15,7 +15,7 @@ import java.util.logging.Logger;
         features = "src/test/resources/features",
         glue = {"com.bdd.web.stepdefinition", "com.bdd.hooks"},
         plugin = {"pretty","html:target/cucumber.html", "json:target/build/cucumber.json"},
-        tags = "@loginFail"
+        tags = "@addProduct"
 )
 public class RunnerTest {
 

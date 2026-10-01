@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import util.ScenarioContext;
 
-import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.logging.Level;
@@ -33,11 +32,6 @@ public class BaseWeb {
     public static void waitUntilElementIsVisible(WebElement element, int time) {
         webDriverWait(time).
                 until(ExpectedConditions.visibilityOf(element));
-    }
-
-    public static void waitUntilElementIsClickeable(WebElement element, int time) {
-        webDriverWait(time).
-                until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static boolean isElementVisible(WebElement element, int time) {

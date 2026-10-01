@@ -26,7 +26,7 @@ public class LoginStep extends BaseWeb {
         loginPage.clickLoginButton();
         homePage = new HomePage(driver());
         BaseWeb.takeScreenShot();
-        return homePage.validarPaginaInventarioCargada();
+        return homePage.validarPaginaHomeCargada();
     }
 
     public boolean validarMensajeError(String mensajeEsperado) {
