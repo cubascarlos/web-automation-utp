@@ -8,7 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import util.Util;
 
 public class LoginPage extends BaseWeb {
-    protected WebDriver driver;
+
+    protected WebDriver driver = driver();
 
     @FindBy(id = "user-name")
     private WebElement usernameField;
@@ -18,11 +19,6 @@ public class LoginPage extends BaseWeb {
     private WebElement loginButton;
     @FindBy(css = "[data-test='error']")
     private WebElement errorMessage;
-
-    public LoginPage(WebDriver driver) {
-        this.driver = driver;
-        //PageFactory.initElements(driver, this);
-    }
 
     public LoginPage open() {
         String baseUrl = Util.getFromConfigFile("url.saucedemo");
@@ -42,7 +38,7 @@ public class LoginPage extends BaseWeb {
     public HomePage clickLoginButton() {
         waitUntilElementIsVisible(loginButton, 10);
         loginButton.click();
-        return new HomePage(driver);
+        return new HomePage();
     }
 
     /**

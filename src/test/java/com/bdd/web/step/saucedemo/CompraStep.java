@@ -4,14 +4,13 @@ import com.bdd.hooks.BaseWeb;
 import com.bdd.web.page.saucedemo.CartPage;
 import com.bdd.web.page.saucedemo.HomePage;
 
-public class CompraStep extends BaseWeb {
+public class CompraStep {
 
-    private HomePage homePage;
-    private CartPage cartPage;
+    private HomePage homePage = new HomePage();
+    private CartPage cartPage = new CartPage();
 
 
     public void agregarProductoAlCarrito() {
-        homePage = new HomePage(driver());
         homePage.clicAddToCartOnProduct();
     }
 
@@ -20,7 +19,6 @@ public class CompraStep extends BaseWeb {
     }
 
     public boolean usuarioValidaSeMuestraSeccionCarritoDeCompras() {
-        cartPage =  new CartPage();
         return cartPage.validarTituloCarritoDeCompra();
     }
 }

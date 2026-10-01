@@ -2,7 +2,10 @@
 /Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/hooks/Hooks.java
 /Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/hooks/WebDriverManager.java
 /Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/runner/RunnerTest.java
-/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/page/saucedemo/InventoryPage.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/page/saucedemo/CartPage.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/page/saucedemo/HomePage.java
 /Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/page/saucedemo/LoginPage.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/step/saucedemo/CompraStep.java
 /Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/step/saucedemo/LoginStep.java
+/Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/stepdefinition/CompraStepDefinition.java
 /Users/carlossalvatierra/Documents/SDET/Projects/web-automation-utp/src/test/java/com/bdd/web/stepdefinition/LoginStepDefinition.java

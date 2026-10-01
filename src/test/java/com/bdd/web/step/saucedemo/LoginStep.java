@@ -5,13 +5,13 @@ import com.bdd.web.page.saucedemo.HomePage;
 import com.bdd.web.page.saucedemo.LoginPage;
 import util.ScenarioContext;
 
-public class LoginStep extends BaseWeb {
+public class LoginStep {
 
     private LoginPage loginPage;
     private HomePage homePage;
 
     public void abrirPaginaLogin() {
-        loginPage = new LoginPage(driver());
+        loginPage = new LoginPage();
         loginPage.open();
         BaseWeb.takeScreenShot();
     }
@@ -24,7 +24,7 @@ public class LoginStep extends BaseWeb {
 
     public boolean realizarLogin() {
         loginPage.clickLoginButton();
-        homePage = new HomePage(driver());
+        homePage = new HomePage();
         BaseWeb.takeScreenShot();
         return homePage.validarPaginaHomeCargada();
     }

@@ -9,16 +9,53 @@
   <component name="ChangeListManager">
     <list default="true" id="0717b5aa-9696-4241-98bc-704670266521" name="Changes" comment="add tag smoke">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/BaseWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/BaseWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/runner/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/CompraStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/CompraStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/automation-web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/automation-web-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/build/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/build/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/hooks/BaseWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/hooks/BaseWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/runner/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/runner/RunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/embeddings/embedding_-1561146971.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/embeddings/embedding_1580334264.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/embeddings/embedding_712054882.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-feature_1774902849.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_4082898728.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bdd.runner.RunnerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.bdd.runner.RunnerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/CartPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/CompraStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/CompraStep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/LoginStep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,14 +184,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/HomePage.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/HomePage.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/CartPage.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

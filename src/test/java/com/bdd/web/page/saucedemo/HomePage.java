@@ -18,9 +18,9 @@ public class HomePage extends BaseWeb {
     @FindBy(xpath = "//a[@data-test=\"shopping-cart-link\"]")
     private WebElement btnCarrito;
 
-    public HomePage(WebDriver driver) {
-        this.driver = driver;
-    }
+//    public HomePage(WebDriver driver) {
+//        this.driver = driver;
+//    }
 
     public boolean validarPaginaHomeCargada() {
         return isElementVisible(pageTitle, 20);

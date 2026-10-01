@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 
-public class LoginStepDefinition extends BaseWeb {
+public class LoginStepDefinition {
 
     private LoginStep loginStep = new LoginStep();
 
