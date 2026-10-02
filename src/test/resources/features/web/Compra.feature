@@ -13,13 +13,7 @@ Feature: Agregar productos a carrito
     Examples:
       | user          | pass         |
       | standard_user | secret_sauce |
-      | standard_user | secret_sauce |
-#      | standard_user | secret_sauce |
-#      | standard_user | secret_sauce |
-#      | standard_user | secret_sauce |
-#      | standard_user | secret_sauce |
-#      | standard_user | secret_sauce |
-#      | standard_user | secret_sauce |
+
 
 
 
