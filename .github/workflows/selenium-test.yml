@@ -7,11 +7,11 @@ on:
     branches: [main]
   workflow_dispatch:
     inputs:
-        tags:
-            description: "Etiqueta de prueba para ejecutar (ej. @login, @smoke)"
-            required: true
-            default: "@login"
-            type: string
+      tags:
+        description: "Etiqueta de prueba para ejecutar (ej. @login, @smoke)"
+        required: true
+        default: "@login"
+        type: string
 
 permissions:
   checks: write
