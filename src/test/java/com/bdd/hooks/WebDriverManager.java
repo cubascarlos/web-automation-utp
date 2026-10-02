@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import util.Util;
@@ -16,13 +17,15 @@ import java.util.logging.Logger;
 public class WebDriverManager {
     public static WebDriver driver;
 
-    public static ChromeDriverService service = new ChromeDriverService.Builder().build();
-
     public static void setWebDriver() {
-        String browser = System.getProperty("browser") != null ? System.getProperty("browser") : Util.getFromConfigFile("browser");
+
+        String browser = System.getProperty("browser") != null
+                ? System.getProperty("browser")
+                : Util.getFromConfigFile("browser");
         String isHeadless = System.getProperty("headless", "false");
         switch (browser) {
             case "chrome":
+                ChromeDriverService service = new ChromeDriverService.Builder().build();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 if (isHeadless.equals("true")) {
                     chromeOptions.addArguments("--headless=new");
@@ -31,21 +34,23 @@ public class WebDriverManager {
                 }
                 chromeOptions.addArguments("--incognito");
                 chromeOptions.addArguments("--remote-allow-origins=*");
-                //System.setProperty("webdriver.chrome.driver", "drivers/win/chromedriver.exe");
-                //driver = new ChromeDriver(chromeOptions);
+                /*System.setProperty("webdriver.chrome.driver", "drivers/mac/chromedriver");*/
+                /*driver = new ChromeDriver(chromeOptions);*/
                 driver = new ChromeDriver(service, chromeOptions);
+                Logger.getGlobal().log(Level.INFO, "Iniciando navegador: ", browser);
+                break;
+            case "edge":
+                EdgeDriverService edgeService = new EdgeDriverService.Builder().build();
+                //driver = new EdgeDriver(edgeService, edgeOptions);
+                /*System.setProperty("webdriver.edge.driver", "drivers/win/msedgedriver.exe");*/
+                EdgeOptions edgeOptions = new EdgeOptions();
+                edgeOptions.addArguments("--remote-allow-origins=*");
+                driver = new EdgeDriver(edgeService, edgeOptions);
                 Logger.getGlobal().log(Level.INFO, "Iniciando navegador: ", browser);
                 break;
             case "firefox":
                 System.setProperty("webdriver.firefox.driver", "drivers/win/geckodriver.exe");
                 driver = new FirefoxDriver();
-                Logger.getGlobal().log(Level.INFO, "Iniciando navegador: ", browser);
-                break;
-            case "edge":
-                System.setProperty("webdriver.edge.driver", "drivers/win/msedgedriver.exe");
-                EdgeOptions edgeOptions = new EdgeOptions();
-                edgeOptions.addArguments("--remote-allow-origins=*");
-                driver = new EdgeDriver(edgeOptions);
                 Logger.getGlobal().log(Level.INFO, "Iniciando navegador: ", browser);
                 break;
             default:
@@ -56,7 +61,9 @@ public class WebDriverManager {
     }
 
     public static void stopWebDriver() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     public static WebDriver getWebDriver() {

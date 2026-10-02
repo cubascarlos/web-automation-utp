@@ -20,33 +20,22 @@ public class LoginPage extends BaseWeb {
     @FindBy(css = "[data-test='error']")
     private WebElement errorMessage;
 
-    public LoginPage open() {
+    public void open() {
         String baseUrl = Util.getFromConfigFile("url.saucedemo");
         driver.get(baseUrl);
-        return this;
     }
 
-    public LoginPage ingresarCredenciales(String usuario, String contrasena) {
+    public void ingresarCredenciales(String usuario, String contrasena) {
         waitUntilElementIsVisible(usernameField, 10);
         usernameField.clear();
         usernameField.sendKeys(usuario);
         passwordField.clear();
         passwordField.sendKeys(contrasena);
-        return this;
     }
 
-    public HomePage clickLoginButton() {
+    public void clickLoginButton() {
         waitUntilElementIsVisible(loginButton, 10);
         loginButton.click();
-        return new HomePage();
-    }
-
-    /**
-     * Completa el login y retorna la página home
-     */
-    public HomePage login(String usuario, String contrasena) {
-        ingresarCredenciales(usuario, contrasena);
-        return clickLoginButton();
     }
 
     public String obtenerMensajeError() {
@@ -54,9 +43,6 @@ public class LoginPage extends BaseWeb {
         return errorMessage.getText();
     }
 
-    /**
-     * Valida si hay mensaje de error visible
-     */
     public boolean validarMensajeErrorVisible() {
         return isElementVisible(errorMessage, 9);
     }

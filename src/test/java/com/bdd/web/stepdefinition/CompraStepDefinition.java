@@ -6,7 +6,7 @@ import org.junit.Assert;
 
 public class CompraStepDefinition {
 
-    CompraStep compraStep = new CompraStep();
+    private final CompraStep compraStep = new CompraStep();
 
     @And("usuario agrega producto al carrito de compras")
     public void usuarioAgregaProductoAlCarritoDeCompras() {

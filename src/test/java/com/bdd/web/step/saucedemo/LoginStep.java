@@ -7,11 +7,10 @@ import util.ScenarioContext;
 
 public class LoginStep {
 
-    private LoginPage loginPage;
-    private HomePage homePage;
+    private final LoginPage loginPage = new LoginPage();
+    private final HomePage homePage = new HomePage();
 
     public void abrirPaginaLogin() {
-        loginPage = new LoginPage();
         loginPage.open();
         BaseWeb.takeScreenShot();
     }
@@ -24,7 +23,6 @@ public class LoginStep {
 
     public boolean realizarLogin() {
         loginPage.clickLoginButton();
-        homePage = new HomePage();
         BaseWeb.takeScreenShot();
         return homePage.validarPaginaHomeCargada();
     }

@@ -6,11 +6,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class CartPage extends BaseWeb {
 
-    @FindBy(css = "span.title")
+    @FindBy(xpath = "//span[@class='title' and text()='Your Cart']")
     private WebElement titleCart;
 
     public boolean validarTituloCarritoDeCompra(){
         return isElementVisible(titleCart,10);
     }
-
 }

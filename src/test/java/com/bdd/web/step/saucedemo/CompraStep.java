@@ -6,8 +6,8 @@ import com.bdd.web.page.saucedemo.HomePage;
 
 public class CompraStep {
 
-    private HomePage homePage = new HomePage();
-    private CartPage cartPage = new CartPage();
+    private final HomePage homePage = new HomePage();
+    private final CartPage cartPage = new CartPage();
 
 
     public void agregarProductoAlCarrito() {

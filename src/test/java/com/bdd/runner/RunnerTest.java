@@ -28,5 +28,4 @@ public class RunnerTest {
     public static void afterExecution() {
         Logger.getLogger(RunnerTest.class.getName()).log(Level.INFO, "AFTER EXECUTION ----->");
     }
-
 }

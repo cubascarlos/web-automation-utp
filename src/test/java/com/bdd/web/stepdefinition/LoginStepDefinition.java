@@ -1,6 +1,5 @@
 package com.bdd.web.stepdefinition;
 
-import com.bdd.hooks.BaseWeb;
 import com.bdd.web.step.saucedemo.LoginStep;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
