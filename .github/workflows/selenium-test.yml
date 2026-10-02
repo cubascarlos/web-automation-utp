@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+    inputs:
+        tag:
+            description: "Etiqueta de prueba para ejecutar (ej. @login, @smoke)"
+            required: true
+            default: "@login"
+            type: string
 
 permissions:
   checks: write
@@ -29,7 +35,8 @@ jobs:
       - name: Ejecutar pruebas
         env:
           MAVEN_OPTS: "-Dmaven.repo.local=/var/maven/.m2/repository"
-        run: mvn clean verify -Dcucumber.filter.tags="@login" -Dheadless=true
+          TAGS: ${{ inputs.tags || '@login' }}
+        run: mvn clean verify -Dcucumber.filter.tags="$TAGS" -Dheadless=true
 
       - name: Archivar reporte HTML de Cucumber
         if: always()
