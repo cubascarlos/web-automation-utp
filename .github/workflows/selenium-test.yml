@@ -29,7 +29,7 @@ jobs:
       - name: Ejecutar pruebas
         env:
           MAVEN_OPTS: "-Dmaven.repo.local=/var/maven/.m2/repository"
-        run: mvn clean verify -Dcucumber.filter.tags="@NTLC-1" -Dheadless=true
+        run: mvn clean verify -Dcucumber.filter.tags="@login" -Dheadless=true
 
       - name: Archivar reporte HTML de Cucumber
         if: always()

@@ -12,9 +12,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>11</java.version>
+        <!--<java.version>11</java.version>
         <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.target>21</maven.compiler.target>-->
+        <maven.compiler.release>21</maven.compiler.release>
+        <!--<selenium.java.version>4.48.0</selenium.java.version>-->
         <selenium.java.version>4.16.1</selenium.java.version>
         <io.cucumber.version>7.11.2</io.cucumber.version>
         <maven.cucumber.reporting>5.7.5</maven.cucumber.reporting>
@@ -46,7 +48,7 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.3.1</version>
-<!--            <scope>test</scope>-->
+            <!--            <scope>test</scope>-->
         </dependency>
 
         <!--Reporte-->

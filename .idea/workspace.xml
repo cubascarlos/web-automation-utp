@@ -8,33 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0717b5aa-9696-4241-98bc-704670266521" name="Changes" comment="add tag smoke">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/selenium-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/selenium-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/mac/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/hooks/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/runner/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/page/saucedemo/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/CompraStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/CompraStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/step/saucedemo/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/stepdefinition/CompraStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/stepdefinition/CompraStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/web/stepdefinition/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/web/stepdefinition/LoginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/web/Compra.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/web/Compra.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/automation-web-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/build/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/build/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/hooks/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/hooks/WebDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/CartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/page/saucedemo/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/CompraStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/CompraStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/step/saucedemo/LoginStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/stepdefinition/CompraStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/stepdefinition/CompraStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/web/stepdefinition/LoginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/web/stepdefinition/LoginStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/web/Compra.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/web/Compra.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
