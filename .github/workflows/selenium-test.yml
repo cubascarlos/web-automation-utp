@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: markhobson/maven-chrome
+      image: markhobson/maven-chrome:jdk-21
       options: -u root
 
     steps:
