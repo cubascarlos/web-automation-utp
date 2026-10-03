@@ -8,11 +8,16 @@ public class CartPage extends BaseWeb {
 
     @FindBy(xpath = "//span[@class='title' and text()='Your Cart']")
     private WebElement titleCart;
-    @FindBy(id = "checkout")
+
+    @FindBy(xpath = "//button[@id=\"checkout\"]")
     private WebElement btnChekout;
 
     public boolean validarTituloCarritoDeCompra(){
         return isElementVisible(titleCart,10);
     }
 
+    public void clicBtnChekout() {
+        waitUntilElementIsVisible(btnChekout,10);
+        btnChekout.click();
+    }
 }

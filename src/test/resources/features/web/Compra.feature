@@ -10,6 +10,7 @@ Feature: Agregar productos a carrito
     And usuario agrega producto al carrito de compras
     And el usuario se dirige al carrito de compras
     And el usuario valida que se muestra la seccion carrito de compras
+    And el usuario realiza checkout
 
 
 

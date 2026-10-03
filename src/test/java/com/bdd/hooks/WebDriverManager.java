@@ -18,7 +18,6 @@ public class WebDriverManager {
     public static WebDriver driver;
 
     public static void setWebDriver() {
-
         String browser = System.getProperty("browser") != null
                 ? System.getProperty("browser")
                 : Util.getFromConfigFile("browser");

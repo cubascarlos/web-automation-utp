@@ -22,4 +22,7 @@ public class CompraStep {
         return cartPage.validarTituloCarritoDeCompra();
     }
 
+    public void usuarioRealizaCheckout() {
+        cartPage.clicBtnChekout();
+    }
 }

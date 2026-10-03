@@ -24,4 +24,9 @@ public class CompraStepDefinition {
         Assert.assertTrue("No se muestra la seccion de carrito de compra",
                 compraStep.usuarioValidaSeMuestraSeccionCarritoDeCompras());
     }
+
+    @And("el usuario realiza checkout")
+    public void elUsuarioRealizaCheckout() {
+        compraStep.usuarioRealizaCheckout();
+    }
 }
