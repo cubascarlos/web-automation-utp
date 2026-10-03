@@ -34,8 +34,6 @@ public class WebDriverManager {
                 }
                 chromeOptions.addArguments("--incognito");
                 chromeOptions.addArguments("--remote-allow-origins=*");
-                /*System.setProperty("webdriver.chrome.driver", "drivers/mac/chromedriver");*/
-                /*driver = new ChromeDriver(chromeOptions);*/
                 driver = new ChromeDriver(service, chromeOptions);
                 Logger.getGlobal().log(Level.INFO, "Iniciando navegador: ", browser);
                 break;
