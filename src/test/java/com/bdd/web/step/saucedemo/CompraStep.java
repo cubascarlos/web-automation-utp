@@ -21,4 +21,5 @@ public class CompraStep {
     public boolean usuarioValidaSeMuestraSeccionCarritoDeCompras() {
         return cartPage.validarTituloCarritoDeCompra();
     }
+
 }

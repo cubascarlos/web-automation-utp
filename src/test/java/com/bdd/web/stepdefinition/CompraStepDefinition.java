@@ -1,6 +1,7 @@
 package com.bdd.web.stepdefinition;
 
 import com.bdd.web.step.saucedemo.CompraStep;
+import io.cucumber.java.PendingException;
 import io.cucumber.java.en.And;
 import org.junit.Assert;
 
